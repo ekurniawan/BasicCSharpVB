@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpConsoleApp", "CsharpConsoleApp\CsharpConsoleApp.csproj", "{A00B0CA8-5979-4C4D-AEA2-4354CE2101C9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBConsoleApp", "VBConsoleApp\VBConsoleApp.vbproj", "{EA11DA55-5537-49BF-A78C-8AE2B22F5BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00B0CA8-5979-4C4D-AEA2-4354CE2101C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00B0CA8-5979-4C4D-AEA2-4354CE2101C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00B0CA8-5979-4C4D-AEA2-4354CE2101C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00B0CA8-5979-4C4D-AEA2-4354CE2101C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA11DA55-5537-49BF-A78C-8AE2B22F5BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA11DA55-5537-49BF-A78C-8AE2B22F5BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA11DA55-5537-49BF-A78C-8AE2B22F5BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA11DA55-5537-49BF-A78C-8AE2B22F5BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7BB79EA-2731-4D99-A076-9CCFCFD862C2}
+	EndGlobalSection
+EndGlobal
