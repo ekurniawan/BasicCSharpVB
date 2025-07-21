@@ -54,6 +54,10 @@
       <Project>{09357cc1-4078-4bdc-b7d3-1466c23649cb}</Project>
       <Name>CSharpClassLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\VBClassLibrary\VBClassLibrary.vbproj">
+      <Project>{caa1a494-c5a0-4b8f-b9ba-51fe12d24ada}</Project>
+      <Name>VBClassLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

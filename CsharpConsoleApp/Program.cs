@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using VBClassLibrary;
 
 namespace CsharpConsoleApp
 {
@@ -20,6 +21,9 @@ namespace CsharpConsoleApp
 
             int hasilTambah = MyFunction.Add(a, b);
             Console.WriteLine("Hasil Tambah: " + hasilTambah);
+
+            MyVBFunction myVb = new MyVBFunction();
+            Console.WriteLine(myVb.GetGreeting("John"));
 
             var d = 12;
             //d = "Erick";
