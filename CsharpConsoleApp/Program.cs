@@ -1,6 +1,9 @@
-﻿using System;
+﻿using CSharpClassLibrary;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +17,18 @@ namespace CsharpConsoleApp
 
             int a = 12;
             int b = 8;
+
+            int hasilTambah = MyFunction.Add(a, b);
+            Console.WriteLine("Hasil Tambah: " + hasilTambah);
+
+            var d = 12;
+            //d = "Erick";
+
+            int h = 12;
+            double g = h;
+            double i = 12.5;
+            int j = Convert.ToInt32(i);
+
 
             Console.WriteLine("b: " + b);
             int c = b;
@@ -81,6 +96,11 @@ namespace CsharpConsoleApp
         public void DisplayInfo()
         {
             Console.WriteLine($"Name: {Name}, Age: {Age}");
+        }
+
+        public string GetName()
+        {
+            return Name;
         }
     }
 }
