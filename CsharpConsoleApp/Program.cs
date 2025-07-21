@@ -27,6 +27,11 @@ namespace CsharpConsoleApp
             person2.Name = "Bob";
             person2.Age = 25;
 
+            Person person3 = person2;
+            Console.WriteLine("Person 3: " + person3.Name);
+            person2.Name = "Charlie";
+            Console.WriteLine("Person 3: " + person3.Name);
+
         }
     }
 
